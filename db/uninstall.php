@@ -20,7 +20,7 @@
  * @see uninstall_plugin()
  *
  * @package    mod_gapps
- * @copyright  2015 Your Name <your@email.adress>
+ * @copyright  2016 UC Regents <your@email.adress>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

@@ -15,13 +15,10 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * The main gapps configuration form
- *
- * It uses the standard core Moodle formslib. For more info about them, please
- * visit: http://docs.moodle.org/en/Development:lib/formslib.php
+ * The main Google Apps form.
  *
  * @package    mod_gapps
- * @copyright  2015 Your Name
+ * @copyright  2016 UC Regents
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -33,7 +30,7 @@ require_once($CFG->dirroot.'/course/moodleform_mod.php');
  * Module instance settings form
  *
  * @package    mod_gapps
- * @copyright  2015 Your Name
+ * @copyright  2016 UC Regents
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class mod_gapps_mod_form extends moodleform_mod {

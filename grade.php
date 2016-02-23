@@ -15,11 +15,11 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Redirect the user to the appropriate submission related page
+ * Redirect the user to the appropriate submission related page.
  *
  * @package   mod_gapps
  * @category  grade
- * @copyright 2015 Your Name
+ * @copyright 2016 UC Regents
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

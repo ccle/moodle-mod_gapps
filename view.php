@@ -15,17 +15,12 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Prints a particular instance of gapps
- *
- * You can have a rather longer description of the file as well,
- * if you like, and it can span multiple lines.
+ * Prints a particular instance of gapps.
  *
  * @package    mod_gapps
- * @copyright  2015 Your Name
+ * @copyright  2016 UC Regents
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
-// Replace gapps with the name of your module and remove this line.
 
 require_once(dirname(dirname(dirname(__FILE__))).'/config.php');
 require_once(dirname(__FILE__).'/lib.php');

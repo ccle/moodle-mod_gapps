@@ -15,13 +15,10 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * This is a one-line short description of the file
- *
- * You can have a rather longer description of the file as well,
- * if you like, and it can span multiple lines.
+ * Lists Google Apps resources for course.
  *
  * @package    mod_gapps
- * @copyright  2015 Your Name
+ * @copyright  2016 UC Regents
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -43,7 +40,7 @@ $event = \mod_gapps\event\course_module_instance_list_viewed::create($params);
 $event->add_record_snapshot('course', $course);
 $event->trigger();
 
-$strname = get_string('modulenameplural', 'mod_gapps');
+$strname = get_string('modulename', 'mod_gapps');
 $PAGE->set_url('/mod/gapps/index.php', array('id' => $id));
 $PAGE->navbar->add($strname);
 $PAGE->set_title("$course->shortname: $strname");

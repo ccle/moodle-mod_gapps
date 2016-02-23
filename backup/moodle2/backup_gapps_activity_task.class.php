@@ -19,7 +19,7 @@
  *
  * @package   mod_gapps
  * @category  backup
- * @copyright 2015 Your Name <your@email.adress>
+ * @copyright 2016 UC Regents <your@email.adress>
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -32,7 +32,7 @@ require_once($CFG->dirroot . '/mod/gapps/backup/moodle2/backup_gapps_stepslib.ph
  *
  * @package   mod_gapps
  * @category  backup
- * @copyright 2015 Your Name <your@email.adress>
+ * @copyright 2016 UC Regents <your@email.adress>
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class backup_gapps_activity_task extends backup_activity_task {

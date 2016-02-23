@@ -16,24 +16,20 @@
 
 
 /**
- * English strings for gapps
- *
- * You can have a rather longer description of the file as well,
- * if you like, and it can span multiple lines.
+ * English strings for gapps.
  *
  * @package    mod_gapps
- * @copyright  2015 Your Name
+ * @copyright  2016 UC Regents
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['modulename'] = 'gapps';
-$string['modulenameplural'] = 'gappss';
+$string['modulename'] = 'Google Apps';
 $string['modulename_help'] = 'Use the gapps module for... | The gapps module allows...';
 $string['gappsfieldset'] = 'Custom example fieldset';
 $string['gappsname'] = 'gapps name';
 $string['gappsname_help'] = 'This is the content of the help tooltip associated with the gappsname field. Markdown syntax is supported.';
 $string['gapps'] = 'gapps';
-$string['pluginadministration'] = 'gapps administration';
-$string['pluginname'] = 'gapps';
+$string['pluginadministration'] = 'Google Apps administration';
+$string['pluginname'] = 'Google Apps';
